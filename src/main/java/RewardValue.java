@@ -1,5 +1,5 @@
 public class RewardValue {
-   public double cashValue;
+   private final double cashValue;
    public int milesValue;
    public static final double milesToCashRate =0.0035;
    public RewardValue(double cashValue){
